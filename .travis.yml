@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - node
+cache:
+  directories:
+    - "node_modules"
+script: 
+- npm test
+after_script:
+- "npm run test:cover"
+- "npm install coveralls && cat ./coverage/lcov.info | coveralls"
+deploy:
+- provider: npm
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
+  on:
+    tags: true
+- provider: releases
+  api_key: "$GITHUB_TOKEN"
+  file_glob: true
+  file: dist/umd/**/*
+  skip_cleanup: true
+  on:
+    tags: true
