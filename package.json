@@ -1,6 +1,6 @@
 {
   "name": "@rxmap/offlinestorage",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Storage the map files when you visit the maps for ability the option of work offline",
   "keywords": [
     "offline",
@@ -30,7 +30,7 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xlab-tech/ObservableStore.git"
+    "url": "https://github.com/xlab-tech/OfflineStorage.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
