@@ -18,7 +18,7 @@ offlineStorage, the library storage the map files when you visit the maps for ab
 
 ### NPM
 ```
-   npm install @rxmap/offilineStorage --save
+   npm install @rxmap/offlinestorage --save
 ```
 
 or
@@ -27,7 +27,7 @@ or
 
 ```
 <head>
-<script type=‘application/javascript’ src=‘https://unpkg.com/@rxmap/offlinestorage@0.1.0’ defer/>
+<script type=‘application/javascript’ src=‘https://unpkg.com/@rxmap/offlinestorage@0.4.0’ defer/>
 </head>
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "@rxmap/offlinestorage",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Storage the map files when you visit the maps for ability the option of work offline",
   "keywords": [
     "offline",
