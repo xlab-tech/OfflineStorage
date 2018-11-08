@@ -12,7 +12,7 @@ const addData = (info) => {
 };
 
 export const addStatic = reg => (addData({ type: 'static', reg }));
-export const addLayer = reg => (addData({ type: 'layer', reg }));
+export const addLayer = layer => (addData({ type: 'layer', layer }));
 export const start = (path = '/') => {
   if ('serviceWorker' in navigator) {
     // Use the window load event to keep the page load performant

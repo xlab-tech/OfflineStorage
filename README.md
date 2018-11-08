@@ -27,7 +27,7 @@ or
 
 ```
 <head>
-<script type=‘application/javascript’ src=‘https://unpkg.com/@rxmap/offlinestorage@0.4.0’ defer/>
+<script type=‘application/javascript’ src=‘https://unpkg.com/@rxmap/offlinestorage@0.5.0’ defer/>
 </head>
 ```
 
